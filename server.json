@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.onehaus/haus",
+  "title": "OneHaus",
+  "description": "OneHaus household tools: tasks, calendar, contacts, pets, vehicles, documents and more.",
+  "version": "1.3.0",
+  "websiteUrl": "https://onehaus.app",
+  "repository": {
+    "url": "https://github.com/Im5tu/onehaus-plugins",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.onehaus.app"
+    }
+  ]
+}

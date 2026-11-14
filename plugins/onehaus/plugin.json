@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "onehaus",
+  "version": "1.0.0",
+  "description": "Connects the agent to the OneHaus MCP server so it can read and update a shared household: calendar, chores, shopping, meals and home admin.",
+  "author": {
+    "name": "ASB Media Investment Group Ltd",
+    "email": "support@onehaus.app",
+    "url": "https://onehaus.app"
+  },
+  "homepage": "https://onehaus.app",
+  "repository": "https://github.com/Im5tu/onehaus-plugins",
+  "license": "MIT",
+  "keywords": ["onehaus", "household", "calendar", "chores", "shopping", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "onehaus": { "trust": "untrusted" }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+# Draft catalogue entry for a later pull request to NousResearch/hermes-agent.
+# Do not open that pull request from this repo. Copy this file to
+# plugin-catalog/onehaus.yaml there, and bump sha if plugins/onehaus changes.
+# sha below is the commit that contains the Agent Plugins v1 package.
+# requires_hermes matches the aave-mcp catalogue entry, which uses the same
+# extensions.com.nousresearch.hermes.servers.*.trust field. It was not
+# re-checked against the oldest Hermes release that accepts that field.
+name: onehaus
+title: OneHaus
+repo: https://github.com/Im5tu/onehaus-plugins
+sha: 8efca27363cc2e49ae6077539c8abd1cf82835db
+subdir: plugins/onehaus
+version: "1.0.0"
+description: "OneHaus household organiser through the official remote MCP server (Streamable HTTP at https://mcp.onehaus.app). OAuth 2.0 with PKCE and dynamic client registration, scopes haus.read and haus.write. Calendar, chores, shopping, meals and home admin for the signed-in household. Bundles one workflow skill. Agent Plugins v1 package (plugin.json, mcp.json, skills/), configuration only. Disclosure: hosted-only connector with no local code; every tool call goes to mcp.onehaus.app. A OneHaus account is required. The package marks the server untrusted, so Hermes asks before any tool that is not read-only and refuses those calls in unattended runs. The tool list is served by the remote server at runtime and is not covered by the pinned sha."
+maintainer: OneHaus
+tier: community
+category: tools
+docs_url: https://onehaus.app/docs/connect
+requires_hermes: ">=0.21.6"
+readme: true
+platforms: []
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []

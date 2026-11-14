@@ -1,6 +1,6 @@
 ---
 name: onehaus
-description: Use the OneHaus remote MCP server (https://mcp.onehaus.app) when the user wants help with their shared household: calendar, chores, shopping, meals, contacts, pets, vehicles, appliances, documents, subscriptions, house review or memory. A OneHaus account and OAuth sign-in are required. Confirm before creating, updating or deleting anything.
+description: "Use the OneHaus remote MCP server (https://mcp.onehaus.app) when the user wants help with their shared household: calendar, chores, shopping, meals, contacts, pets, vehicles, appliances, documents, subscriptions, house review or memory. A OneHaus account and OAuth sign-in are required. Confirm before creating, updating or deleting anything."
 ---
 
 # OneHaus
